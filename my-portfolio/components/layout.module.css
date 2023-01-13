@@ -4,6 +4,12 @@
   margin: 1rem auto;
 }
 
+.containerMain {
+  max-width: 34rem;
+  padding: 0 0.5rem;
+  margin: 3rem auto 3rem;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
