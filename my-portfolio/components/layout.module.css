@@ -1,8 +1,9 @@
 .container {
   max-width: 80rem;
   padding: 0 1rem;
-  margin: 2rem auto;
+  margin: 0 auto;
 }
+
 .header {
   display: flex;
   justify-content: space-around;
