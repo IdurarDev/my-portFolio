@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "./layout.module.css"
+import utilStyles from "../styles/utils.module.css"
 import Link from "next/link";
 
 export const siteTitle = "Hamid's portfolio";
@@ -20,6 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     <Link href="/competence">Compétences</Link>
                     <Image
                         src="/images/idurar.jpg"
+                        className={utilStyles.borderCircle}
                         height={100}
                         width={100}
                         alt="logo"
