@@ -19,13 +19,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <nav className={styles.header}>
                     <Link href="/service">Services</Link>
                     <Link href="/competence">Compétences</Link>
-                    <Image
-                        src="/images/idurar.jpg"
-                        className={utilStyles.borderCircle}
-                        height={100}
-                        width={100}
-                        alt="logo"
-                    />
+                    <Link href="/">
+                        <Image
+                            src="/images/idurar.jpg"
+                            className={utilStyles.borderCircle}
+                            height={100}
+                            width={100}
+                            alt="logo"
+                        />
+                    </Link>
                     <Link href="/blog">Blog</Link>
                     <Link href="/contact">Contact</Link>
                 </nav>
