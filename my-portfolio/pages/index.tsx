@@ -20,9 +20,8 @@ export default function Home() {
                     Fan de ce que je conçoit, Je prend plaisir à concrétiser les projet avec passion.
                 </p>
             </section>
-            <section className={styles.main}>
-                <div className={styles.grid}>
-                </div>
+            <section className={styles.headingMd}>
+                <h2 className={utilStyles.headingLg}>Compétences</h2>
             </section>
         </Layout>
     )
