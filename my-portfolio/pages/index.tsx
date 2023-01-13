@@ -15,7 +15,7 @@ export default function Home() {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>Hi my name is Hamid, Developer Full Stack Node.js.</p>
+                <p>Hi, my name is Hamid, Developer Full Stack Node.js.</p>
                 <p>
                     Fan de ce que je conçoit, Je prend plaisir à concrétiser les projet avec passion.
                 </p>
