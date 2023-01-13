@@ -18,6 +18,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <nav className={styles.header}>
                     <Link href="/service">Services</Link>
                     <Link href="/competence">Compétences</Link>
+                    <Image
+                        src="/images/idurar.jpg"
+                        height={100}
+                        width={100}
+                        alt="logo"
+                    />
                     <Link href="/blog">Blog</Link>
                     <Link href="/contact">Contact</Link>
                 </nav>
