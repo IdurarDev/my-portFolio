@@ -17,9 +17,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </Head>
             <header>
                 <nav className={styles.header}>
-                    <Link href="/service">Services</Link>
-                    <Link href="/competence">Compétences</Link>
-                    <Link href="/">
+                    <li className={utilStyles.list}><Link href="/service">Services</Link></li>
+                    <li className={utilStyles.list}><Link href="/competence">Compétences</Link></li>
+                    <li className={utilStyles.list}><Link href="/">
                         <Image
                             src="/images/idurar.jpg"
                             className={utilStyles.borderCircle}
@@ -27,12 +27,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                             width={100}
                             alt="logo"
                         />
-                    </Link>
-                    <Link href="/blog">Blog</Link>
-                    <Link href="/contact">Contact</Link>
+                    </Link></li>
+                    <li className={utilStyles.list}><Link href="/blog">Blog</Link></li>
+                    <li className={utilStyles.list}><Link href="/contact">Contact</Link></li>
                 </nav>
             </header>
             <main>{children}</main>
-        </div>
+        </div >
     )
 }
