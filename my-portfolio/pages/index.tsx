@@ -18,7 +18,7 @@ export default function Home() {
             <section className={`${utilStyles.headingLg} ${stylesLayout.containerMain}`}>
                 <p>Hi, my name is Hamid, Developer Full Stack Node.js.</p>
                 <p>
-                    Je prend plaisir à concrétiser les projets avec passion.
+                    I take pleasure in carrying out projects with passion.
                 </p>
             </section>
             <section className={styles.headingMd}>
